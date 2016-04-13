@@ -1,0 +1,325 @@
+
+/* heraxosneri hamar Android, iPhone...*/
+@media only screen and (min-width: 480px) {
+ 
+ 
+}
+ 
+ 
+ /*planshetneri hamar portrait rejimum*/
+@media only screen and (min-width: 768px) {
+ 
+ 
+}
+ 
+ 
+ /*planshetnery landscape rejimum, notbuk, netbook*/
+@media only screen and (min-width: 992px) {
+
+    body{
+        margin: 0 auto;
+        max-width: 70%;
+        background-color: #000000;
+    }
+
+
+    header{
+        max-width: 100%;
+        border: 2px solid;
+        background-color: #831919;
+        color: #834e19;
+        margin: 1% auto;
+    }
+    
+    header p{
+        -webkit-animation: shake 3s linear alternate infinite;
+        animation: shake 3s linear alternate infinite;
+        display: inline-block;
+        width: 50%;
+        color: #198383;
+        font-size: 30px;
+    }
+
+    @-webkit-keyframes shake {
+    100% {
+        -webkit-transform: translateX(100%);
+       }
+    }
+
+    @keyframes shake {
+    100% {
+        transform: translateX(100%);
+       }
+    }
+
+    #imagelogo{
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 50%;
+        margin-left: 10%;
+        width: 100px;
+        height: 100px;
+    }
+
+    header nav{
+        display: inline-block;
+        margin-right: 5%;
+        max-width: 30%;
+        border: 2px solid;
+    }
+
+    header nav ul li{
+        display: inline;
+    }
+    
+    
+    #sectionTop{
+        max-width: 100%;
+        border: 2px solid;
+        color: #834e19;
+    }
+
+
+    #asideLeft{
+        border: 2px solid;
+        width: 20%;
+        display: inline-block;
+        vertical-align: top;
+        background-color: #831919;
+        color: #834e19;
+        margin: 1% auto;
+        
+    }
+    
+    #ulLeft{
+        list-style: none;
+        display: inline-block;
+        width: 100%;
+        padding: unset;
+        margin: 15% auto;
+        
+    }
+    
+    .leftLi{
+        border-bottom: 2px solid #000000;
+        margin-bottom: 15%;
+        text-align: center;
+    }
+    
+    .aLeft{
+        text-decoration: none;
+        color: #198383;
+        display: inline-block;
+                
+    }
+    
+    .aLeft:hover{
+        color: #834e19;
+    }
+    
+    
+    #asideRight{
+        border: 2px solid;
+        width: 20%;
+        display: inline-block;
+        vertical-align: top;
+        background-color: #831919;
+        color: #834e19;
+        margin: 1% auto;
+    }
+
+
+    main{
+        width: 58%;  /*popoxel 70%-i*/
+        
+        display: inline-block;
+        vertical-align: top;
+        color: #834e19;
+        margin: 1% auto;
+        
+    }
+    
+    .mainArticle{
+        border: solid;
+        width: 90%;
+        margin: 2% auto;
+        margin-top: 0%;
+        background-color: #831919;        
+    }
+    
+    .imgArticle{
+        width: 40%;
+        height: 40%;
+        display: inline-block;
+    }
+    
+    .mainArticle h2{
+        display: inline-block;
+        vertical-align: top;
+        width: 59%;
+        color: #198383;
+    }
+    
+    .mainArticle p{
+        color: #198383;
+    }
+
+
+    footer{
+        max-width: 100%;
+        border: 2px solid;        
+        text-align: center;
+        background-color: #831919;
+        color: #834e19;
+    }
+    
+    footer h3{
+        color: #198383;
+    }
+}
+ 
+ 
+ /*mec ekranneri, herustacuycneri hamar*/
+@media only screen and (min-width: 1382px) {
+ 
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+body {
+    margin: 0;
+}
+
+header{
+    background-color: #BD0C29;
+    color: #ffffff;
+    width: 100%;
+    height: 100px;
+}
+
+header img{
+    width: 100%;
+    height: 100px;
+}
+
+header nav{
+
+    background-color: red;
+    width: 100%;
+    height: 50px;
+}
+
+header nav ul{
+}
+
+header nav ul li{
+    float: left;
+}
+
+aside{
+    clear: left;
+    background-color: #BD0C29;
+    color: #ffffff;
+    width: 15%;
+    height: 700px;
+    float: left;
+}
+
+main{
+    width: 85%;
+    height: 700px;
+    margin-left: 15%;
+    background-color: black;
+    margin-top: 10%;
+}
+
+#video1{
+    margin-left: 20px;
+    width: 500px;
+
+}
+
+#video2{
+    margin-left: 1000px;
+    margin-top: -700px;
+    width: 100%;
+    height: 100%;
+}
+
+#imgb{
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -1000;
+    overflow: hidden;
+
+}
+
+#footer{
+    width: 100%;
+    height: 40px;
+    background-color: #BD0C29;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}

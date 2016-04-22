@@ -1,152 +1,247 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Manchester United</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <title>Classic White</title>
+    <meta charset="utf-8">
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet' type='text/css'>
+    <!-- CSS Files -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
+    <!-- Contact Form -->
+    <link href="contact-form/css/style.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="contact-form/css/uniform.css" media="screen" rel="stylesheet" type="text/css">
+    <!-- JS Files -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="js/jquery.tools.min.js"></script>
+    <script>
+        $(function () {
+    $("#prod_nav ul").tabs("#panes > div", {
+        effect: 'fade',
+        fadeOutSpeed: 400
+    });
+});
+    </script>
 </head>
 
 <body>
-    <header>
-        <img id="imagelogo" src="images/logo.ico" alt="ManUtd">
-        <p>Manchester United</p>
+    <header class="header">
+        <div id="site_title">
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+        </div>
+        <!-- Main Menu -->
+        <ol id="menu">
+            <li class="active_menu_item"><a href="index.html">Home</a>
+                <!-- sub menu -->
+                <ol>
+                    <li><a href="nivo.html">Nivo Slider</a></li>
+                    <li><a href="ei-slider.html">EI Slider</a></li>
+                    <li><a href="fullscreen-gallery.html">Fullscreen Slider</a></li>
+                    <li><a href="image-frontpage.html">Static Image</a></li>
+                </ol>
+            </li>
+            <!-- END sub menu -->
+            <li><a href="#">Pages</a>
+                <!-- sub menu -->
+                <ol>
+                    <li><a href="magazine.html">Magazine</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="full-width.html">Full Width Page</a></li>
+                    <li><a href="columns.html">Columns</a></li>
+                </ol>
+            </li>
+            <!-- END sub menu -->
+            <li><a href="elements.html">Elements</a></li>
+            <li><a href="#">Galleries</a>
+                <!-- sub menu -->
+                <ol>
+                    <li><a href="gallery-simple.html">Simple</a></li>
+                    <li><a href="portfolio.html">Filterable</a></li>
+                    <li><a href="gallery-fader.html">Fade Scroll</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li class="last"><a href="photogrid.html">PhotoGrid</a></li>
+                </ol>
+            </li>
+            <!-- END sub menu -->
+            <li><a href="contact.html">Contact</a></li>
+        </ol>
     </header>
-
-
-    <section id="sectionTop">
-        asd
-    </section>
-
-
-    <aside id="asideLeft">
-        <nav>
-            <ul id="ulLeft">
-                <li class="leftLi"><a class="aLeft" href="index.html">Home</a></li>
-                <li class="leftLi"><a class="aLeft" href="pages/legends.html">Legends</a></li>
-                <li class="leftLi"><a class="aLeft" href="pages/commandS.html">Command structure</a></li>
-                <li class="leftLi"><a class="aLeft" href="pages/standings.html">Standings</a></li>
-                <li class="leftLi"><a class="aLeft" href="pages/beautifulG.html">Beautiful goals</a></li>
-                <li class="leftLi"><a class="aLeft" href="pages/article/article.html">Articles</a></li>
-                <li class="leftLi"><a class="aLeft" href="pages/history.html">History</a></li>
-            </ul>
-        </nav>
-    </aside>
-
-
-    <main>
-        <section>
-            <article class="mainArticle">
-                <img class="imgArticle" src="pages/article/article1/article1.jpg" alt="article1">
-                <h2>VAN GAAL REACTS TO TOTTENHAM DEFEAT</h2>
-                <p>Manchester United were beaten 3-0 by Tottenham Hotspur on Sunday - conceding three goals in six second-half minutes - and Louis van Gaal was bitterly disappointed by the result. Here is what he had to say in his post-match interviews with Sky Sports and MUTV...</p>
-            </article>
-            <article class="mainArticle">
-                <img class="imgArticle" src="pages/article/article2/article2.jpg" alt="article2">
-                <h2>RILEY: U21S MUST PROVE WINNING MENTALITY</h2>
-                <p>Joe Riley says Manchester United Reserves coach Warren Joyce has told his Under-21 squad they need to prove they are winners...</p>
-            </article>
-            <article class="mainArticle">
-                <img class="imgArticle" src="pages/article/article3/article3.jpg" alt="article3">
-                <h2>UNDER-18S: MANCHESTER UNITED 7 NEWCASTLE 1</h2>
-                <p>Manchester United’s Under-18s swept to easily their biggest win of the season at the Aon Training Complex on Saturday  against a plucky and hard-working Newcastle United side...</p>
-            </article>
-            <article class="mainArticle">
-                <img class="imgArticle" src="pages/article/article4/article4.jpg" alt="article4">
-                <h2>U21S: MANCHESTER UNITED V MIDDLESBROUGH</h2>
-                <p>Get ready for another exciting fixture as Manchester United host Middlesbrough in a vital match in the quest to retain the Under-21 Premier League title - the final home fixture of the season for Warren Joyce's young Reds team...</p>
-            </article>
-        </section>
-
-    </main>
-
-
-    <aside id="asideRight">
-
-    </aside>
-
-    <footer>
-        <h3> ManUtd © 2016</h3>
-    </footer>
-    <!--  
-    <div id="BackImageDiv">
-        <img id="backimage" src="images/back1.jpg" alt="back">
+    <!-- END header -->
+    <div id="container">
+        <!-- tab panes -->
+        <div id="prod_wrapper">
+            <div id="panes">
+                <div> <img src="img/demo/1.jpg" alt="" class="img">
+                    <h2>1966 Ferrari 275 GTB</h2>
+                    <p>This 275 GTB long nose tube pair Ferrari chassis no. 08729 is one of only 88. 275 steel long nose with
+                        3 carburetors ever built! In LHD this torque 275 GTB pipe has matching numbers and was sold in Milan
+                        Italy in 1966. A full nut and bolt restoration was perfectly done by Bob Smith bodywork and is in
+                        excellent condition. Comes with complete sales, history and manuals, tools and borrani wire wheels
+                        Title of US an European taxes paid. Mileage 28,317 Km. </p>
+                    <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+                </div>
+                <div> <img src="img/demo/2.jpg" alt="" class="img">
+                    <h2>1967 Ford Mustang Coupe</h2>
+                    <p>Smooth running 289 cu. in. V8 engine with 4 BBL, Chrome dress-up kit and dual exhaust, Automatic transmission,
+                        Floor mounted shifter, Wood rim steering wheel, Power steering, Rare Parchment vinyl bench seat interior,
+                        Front seat belts, Refinished in Blue Metallic paint, White vinyl top, Full length stainless rocker
+                        panel moldings, Electric 2 speed wipers, A great running Mustang Hardtop with California history
+                        that is fun to drive. </p>
+                    <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+                </div>
+                <div> <img src="img/demo/3.jpg" alt="" class="img">
+                    <h2>1966 Chevrolet Corvette Roadster</h2>
+                    <p>This is numbers matching, very well documented, low mile 1966 Corvette Roadster for sale. This car was
+                        completed on July 8th, 1966. Looks stunning in its original color combination of Rally Red paint
+                        with a Red interior. The 327 cubic inch engine is rated at 300hp. The transmission is a 4-speed wide
+                        ratio M20. Equipped with a 3.70:1 posi-trac rear end. This car left the factory with the following
+                        options - Hard top and soft top, Power Steering and A/C. </p>
+                    <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+                </div>
+                <div> <img src="img/demo/4.jpg" alt="" class="img">
+                    <h2>1965 Pontiac GTO Coupe</h2>
+                    <p>One of the nicest 65 REAL GTOs we have seen. Very rare Charcoal Blue ( corrected in video ) 389 Tri power
+                        Ram Air with factory 4 speed. recent frame off restoration with attention to details. PHS documented
+                        car correct rally 1 wheels and redline tires. original spare/jack and working original radio. factory
+                        tach in dash and original Hurst 4 speed. everything is like new condition. museum quality paint/chrome
+                        and britework. complete and recent service . bottom of car looks like the top. </p>
+                    <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+                </div>
+                <div> <img src="img/demo/5.jpg" alt="" class="img">
+                    <h2>1964 Cadillac Eldorado</h2>
+                    <p>CALL OUR SALES TEAM! 720-457-9145 Worldwide Vintage Autos is pleased to present this HOLY GRAIL collector
+                        Cadillac: 1964 Cadillac Eldorado Biarritz Convertible!!! 1 of only 1,870 produced and the FIRST year
+                        of the big 429 V8 Motor! Hagerty Values a number number 3 car at $37,500. Save yourself over $10K
+                        off book value!!! We scour the country for vintage cars and trucks like this and we rarely come across
+                        one like this! You must see and drive this rare bird! </p>
+                    <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+                </div>
+            </div>
+            <!-- END tab panes -->
+            <br clear="all">
+            <!-- navigator -->
+            <div id="prod_nav">
+                <ul>
+                    <li>
+                        <a href="#1"><img src="img/demo/1.jpg" width="160" height="100" alt=""><strong>Ferrari</strong> $ 3,200.000</a>
+                    </li>
+                    <li>
+                        <a href="#2"><img src="img/demo/2.jpg" width="160" height="100" alt=""><strong>Ford</strong> $ 21,950</a>
+                    </li>
+                    <li>
+                        <a href="#3"><img src="img/demo/3.jpg" width="160" height="100" alt=""><strong>Chevrolet</strong> $ 69,995</a>
+                    </li>
+                    <li>
+                        <a href="#4"><img src="img/demo/4.jpg" width="160" height="100" alt=""><strong>Pontiac</strong> $ 49,500</a>
+                    </li>
+                    <li>
+                        <a href="#5"><img src="img/demo/5.jpg" width="160" height="100" alt=""><strong>Cadillac</strong> $ 24,900</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- END navigator -->
+        </div>
+        <!-- END prod wrapper -->
+        <div style="clear:both"></div>
+        <div class="one-third">
+            <h2>Business Solutions</h2>
+            <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing
+                elit gravida.</p>
+            <p style="text-align:right; margin-right: 15px"><a href="#" class="button_small">Find out more</a></p>
+        </div>
+        <div class="one-third">
+            <h2>Become a Partner</h2>
+            <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing
+                elit gravida.</p>
+            <p style="text-align:right; margin-right: 15px"><a href="#" class="button_small">Contact Us Today</a></p>
+        </div>
+        <div class="one-third last">
+            <h2>Latest News</h2>
+            <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing
+                elit gravida.</p>
+            <p style="text-align:right; margin-right: 15px"><a href="#" class="button_small">Read Article</a></p>
+        </div>
+        <div style="clear:both"></div>
+        <div class="box_highlight" style="margin-top:40px">
+            <h2 style="text-align:center">Some kind of sales pitch goes here!</h2>
+        </div>
+        <div class="one-half">
+            <div class="heading_bg">
+                <h2>About Us</h2>
+            </div>
+            <blockquote>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing
+                elit gravida. </blockquote>
+            <p style="text-align:right; margin-right: 16px; margin-bottom: 15px"><a href="#" class="button" style="font-size: 18px">Find out more</a></p>
+            <div class="heading_bg">
+                <h2>Video</h2>
+            </div>
+            <iframe src="http://player.vimeo.com/video/22884674?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="465" height="262"
+            frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>
+        <div class="one-half last">
+            <div class="heading_bg">
+                <h2>Contact us today!</h2>
+            </div>
+            <form action="#" class="TTWForm" method="post">
+                <div id="field1-container" class="field f_50">
+                    <label for="field1">Name</label>
+                    <input name="name" id="field1" type="text">
+                </div>
+                <div id="field2-container" class="field f_50">
+                    <label for="field2">Telephone</label>
+                    <input name="tel" id="field2" type="text">
+                </div>
+                <div id="field5-container" class="field f_50">
+                    <label for="field5">Email</label>
+                    <input name="email" id="field5" type="email">
+                </div>
+                <div id="field4-container" class="field f_100">
+                    <label for="field4">Message</label>
+                    <textarea rows="5" cols="20" name="message" id="field4"></textarea>
+                </div>
+                <div id="form-submit" class="field f_100 clearfix submit">
+                    <input value="Submit" type="submit">
+                </div>
+            </form>
+        </div>
+        <div style="clear:both; height: 40px"></div>
     </div>
-    -->
+    <!-- END container -->
+    <div id="footer">
+        <!-- First Column -->
+        <div class="one-fourth">
+            <h3>Useful Links</h3>
+            <ul class="footer_links">
+                <li><a href="#">Lorem Ipsum</a></li>
+                <li><a href="#">Ellem Ciet</a></li>
+                <li><a href="#">Currivitas</a></li>
+                <li><a href="#">Salim Aritu</a></li>
+            </ul>
+        </div>
+        <!-- Second Column -->
+        <div class="one-fourth">
+            <h3>Terms</h3>
+            <ul class="footer_links">
+                <li><a href="#">Lorem Ipsum</a></li>
+                <li><a href="#">Ellem Ciet</a></li>
+                <li><a href="#">Currivitas</a></li>
+                <li><a href="#">Salim Aritu</a></li>
+            </ul>
+        </div>
+        <!-- Third Column -->
+        <div class="one-fourth">
+            <h3>Information</h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet enim id dui tincidunt vestibulum
+            rhoncus a felis.
+            <div id="social_icons"> Theme by <a href="http://www.csstemplateheaven.com">CssTemplateHeaven</a>
+                <br> Photos © <a href="http://dieterschneider.net">Dieter Schneider</a> </div>
+        </div>
+        <!-- Fourth Column -->
+        <div class="one-fourth last">
+            <h3>Socialize</h3>
+            <img src="img/icon_fb.png" alt=""> <img src="img/icon_twitter.png" alt=""> <img src="img/icon_in.png" alt="">            </div>
+        <div style="clear:both"></div>
+    </div>
+    <!-- END footer -->
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-
-    <header>
-        <a href="index.html"><img src="images/header.png" alt="ManUtd"></a>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">History WebSite</a></li>
-                <li><a href="#">Contacts</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </nav>
-    </header>
-
-
-
-    <main>
-        <aside>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="pages/legends.html">Legends</a></li>
-                    <li><a href="pages/commandS.html">Command structure</a></li>
-                    <li><a href="pages/standings.html">Standings</a></li>
-                    <li><a href="pages/beautifulG.html">Beautiful goals</a></li>
-                    <li><a href="pages/history.html">History</a></li>
-                </ul>
-            </nav>
-        </aside>
-
-        <div id="video1">
-            <video controls>
-                <source src="video/Rooney.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div id="video2">
-            <video controls>
-                <source src="video/save.mp4" type="video/mp4">
-            </video>
-        </div>
-    </main>
-
-
-
-    <footer id="footer">
-        <h3> ManUtd © 2016</h3>
-    </footer>
-
-    <img src="images/back.jpg" alt="MU" id="imgb">
--->

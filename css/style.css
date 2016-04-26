@@ -387,11 +387,66 @@ dd {margin-bottom: 30px; font-size: 1em; color: gray; border-bottom: 1px dotted 
 	display: inline-block
 }
 
-.overlay {
-	display:none;
-	width:500px;
-	padding:20px;
-	background-color:#ddd;
+
+#form {
+    width: 280px;
+    padding: 20px 15px ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    display: none;
+    z-index: 1;
+}
+
+#form h3 {
+    font-size: 15px;
+    font-family:'Audiowide', cursive bold;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#form  input, #form  textarea{
+    width: 100%;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #9d9d9d;
+    -webkit-border-radius: 3px ;
+    -moz-border-radius: 3px ;
+    border-radius: 3px ;
+}
+
+#form input{
+    height: 25px;
+    margin: 5px 0;
+}
+
+#form textarea {
+    resize: none;
+    margin: 5px 0;
+}
+
+.back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    overflow: hidden;
+    display: none;
+}
+
+#form .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-decoration: none;
+    color: #DCDCDC;
 }
 
 @media screen and (max-width: 980px) {

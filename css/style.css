@@ -1,9 +1,4 @@
-@charset /* Reset defaults (no need to edit)*/ "utf-8";html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;vertical-align:baseline}:focus{outline:0}ol,ul,li{list-style-type:none}table{border-collapse:separate;border-spacing:0}caption,th,td{text-align:left;font-weight:400}
-/* End Reset defaults (no need to edit above this line)*/
-
-/*Import Custom Styles */
-
-/**************************** Site Structure *****************************/
+@charset "utf-8";html,body,div,iframe,h2,h3,p,blockquote,a,img,strong,ol,ul,li,form,label,{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;vertical-align:baseline}:focus{outline:0}ol,ul,li{list-style-type:none}table{border-collapse:separate;border-spacing:0}
 
 html {
 	font-size: 100%;
@@ -24,10 +19,6 @@ body {	font-family: Georgia, "Times New Roman", Times, serif;
 	background: #FFF;
 	box-shadow: 0px 2px 10px #888888;
 	border-radius: 5px;
-	/* 
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	*/
 	padding: 20px;
 	margin: auto;
 	position: relative;
@@ -42,9 +33,6 @@ body {	font-family: Georgia, "Times New Roman", Times, serif;
 #site_title {float: left; padding-top: 36px; padding-left:20px}
 #site_title img {float: left}
 
-#social_icons {
-
-}
 
 .wrap-articles {margin-left: -30px;}
 
@@ -52,27 +40,6 @@ body {	font-family: Georgia, "Times New Roman", Times, serif;
     width: 470px;
     height: 300px;
 }
-
-.post-box {width: 388px; background: #f0f0f0; float: left; border: 1px solid #CCC;
-           position: relative;
-			border-radius: 5px; 
-			-webkit-border-radius: 5px; 
-			box-shadow: 5px 5px 5px #888888;
-			height: 200px; 
-			padding: 10px 22px; 
-			margin: 0 0 30px 30px
-}
-
-.tab_article {margin: 20px 0; clear:both}
-
-.tab_article img {float: left; width: 50px; height: 50px; margin-right: 12px}
-
-.tab_article p {overflow: hidden; padding: 0; font-size: .9em; line-height:normal; font-style: italic}
-
-.tab_article h3 {height: 30px}
-
-.sidebar_right {float: right; width:300px}
-
 
 #footer { font-size: .8em;
 		  width: 960px;
@@ -84,11 +51,6 @@ body {	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 
-
-/**************************** Typography *****************************/
-
-
-.no_display {display: none;}
 
 h1, h2, h3, h4 { font-family: 'Parisienne', sans-serif; } 
 
@@ -117,22 +79,7 @@ p {
 	font-size: 1em;
 }
 
-.post_meta {padding-bottom: 5px 3px}
-
-.post_meta li {display: inline-block; font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; font-size: 12px; height: 16px; line-height:16px; padding-left: 22px; margin-right: 15px}
-
-.post_meta_admin {background: url("../img/sprite.png") no-repeat 0 -64px}
-.post_meta_date{background: url("../img/sprite.png") no-repeat 0 -80px}
-.post_meta_comments{background: url("../img/sprite.png") no-repeat 0 0}
-
-.excerpt {font-size: 1.4em; border-top: 1px dotted #999; border-bottom: 1px dotted #999; padding: 30px;}
-
-
-small {font-family: Georgia, "Times New Roman", Times, serif; color: #999}
-
 strong {font-weight: bold; font-size: 1.2em}
-
-em {font-style: italic;}
 
 a {color: #2997AB; text-decoration: none}
 
@@ -142,15 +89,6 @@ a {color: #2997AB; text-decoration: none}
 
 blockquote {font-family:Georgia, "Times New Roman", Times, serif; font-style: italic; margin: 10px 0}
 
-/* Lists *
-
-dt {font-size: 1.4em;}
-dd {margin-bottom: 30px; font-size: 1em; color: gray; border-bottom: 1px dotted gray; padding-bottom: 30px;}
-
-
-/**************************************************************************************/
-/*------------------------------------- Buttons -------------------------------------*/
-/************************************************************************************/
 
 .button {
     -moz-border-bottom-colors: none;
@@ -192,7 +130,7 @@ dd {margin-bottom: 30px; font-size: 1em; color: gray; border-bottom: 1px dotted 
 	   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E0E0E0', endColorstr='#fafafa')
    }
 
-/* button small */
+
  
 .button_small {
     -moz-border-bottom-colors: none;
@@ -228,23 +166,10 @@ dd {margin-bottom: 30px; font-size: 1em; color: gray; border-bottom: 1px dotted 
    box-shadow: 0 0 6px #cccccc; }
 
 
-
-
-/**************************************************************************************/
-/*--------------------------------------- Columns -----------------------------------*/
-/************************************************************************************/
-
-
-.left {
-	float:left;
-}
-.right {
-	float:right;
-}
-.one, .one-half, .two-third, .one-third, .one-fourth, .one-fifth, .one-sixth ,.inner-content, .one-third-big { 
+.one, .one-half, .one-third, .one-fourth{ 
 	float:left; 
 }
-.one-half, .two-third, .one-third, .one-fourth, .one-fifth, .one-sixth, .inner-content,.one-third-big  {
+.one-half, .one-third, .one-fourth{
 	margin-right: 30px;
 }
 .one {
@@ -253,52 +178,34 @@ dd {margin-bottom: 30px; font-size: 1em; color: gray; border-bottom: 1px dotted 
 .one-half {
 	width:465px;
 }
-.two-third {
-	width:630px;
-}
+
 .one-third  {
 	width:300px;
 }
-.inner-content  {
-	width:712px;
-}
-.one-third-big{ width:340px;}
 .one-fourth {
 	width:217px;
-}
-.one-fifth {
-	width:168px;
-}
-.one-sixth {
-	width:135px;
 }
 .last { 
 	margin-right: 0px!important;
 }
 
-/* boxes */
 
 .box_highlight {background: #f8f8f8; padding: 15px; margin: 30px 0; border: 1px solid #CCC; border-radius: 5px; clear: both}
 
-/*-----------------------------------------------*/
-/*-------------    Product Viewer  -------------*/
-/*---------------------------------------------*/
 
-/* navigation */
-
-#prod_wrapper {border-bottom: 1px solid #e3e3e3; height: 501px; margin-bottom: 30px; padding: 0; }
+#prod_wrapper {border-bottom: 1px solid #e3e3e3; height: 501px; margin-bottom: 30px; padding: 0; position: relative;}
 
 #prod_nav {
 	height:156px;	
 	width:1%;
 	margin: auto;
     position: absolute;
-    
 }
 
 #prod_nav ul {	
 	width:960px;
 	margin:0 auto;
+    margin-left: -30px;
     position: absolute;	
 }
 
@@ -342,7 +249,7 @@ dd {margin-bottom: 30px; font-size: 1em; color: gray; border-bottom: 1px dotted 
 	display:block;		
 }
 
-/* slide */
+
 #slide {
 	background:#fff;
 	width: 960px;
@@ -351,7 +258,6 @@ dd {margin-bottom: 30px; font-size: 1em; color: gray; border-bottom: 1px dotted 
 	margin-bottom:-20px;
 	padding-bottom:20px;
 	
-	/* must be relative so the individual slide can be absolutely positioned */
 	position:relative;
 }
 
@@ -375,18 +281,12 @@ dd {margin-bottom: 30px; font-size: 1em; color: gray; border-bottom: 1px dotted 
 	margin-right:20px;		
 }
 
-#slide p.more {
-	color:#000;
-	font-weight:bold;
-}
-
 #slide h5 {
 	margin:0 0 10px 0;
 	font-size:22px;
 	font-weight:normal;
 	display: inline-block
 }
-
 
 #form {
     width: 280px;

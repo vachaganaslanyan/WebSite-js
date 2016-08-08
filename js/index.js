@@ -1,11 +1,4 @@
 $(document).ready(function() {
-    var person = prompt("Its you  Aghas???(Yes or No)", "Yes");
-    if (person == "Yes") {
-    var conf = confirm("Answer this question");
-        if(conf == true){
-            window.open("contact-form/Aghas/Aghas.html");
-        }
-    }
 
     $("#contactf").click(function () {
         $(".back, #form").fadeIn();
